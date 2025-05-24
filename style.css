@@ -262,7 +262,7 @@ nav img {
   font-size: 30px;
   padding: 10px;
   border-bottom: 2px solid rgb(38, 127, 242);
-  width: 400px;
+  width: 390px;
 }
 
 .border-style button {
@@ -412,18 +412,121 @@ nav img {
 }
 
 .solutions {
-  /* background-image: url(./18954497_6020105.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  height: 100vw;
-  /* width: 100vw; */
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  /* margin: 60px 120px; */
+  color: white;
 }
 
 .solutions h3 {
-  /* background-color: #000; */
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  /* color: rgb(248, 248, 248); */
-  margin-left: 120px;
+}
+
+.solutions h1 {
+  font-size: 62px;
+  font-weight: 500;
+}
+
+.bottom-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 60px 120px; */
+
+}
+
+.top-row {
+  width: 45vw;
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 60px; */
+  margin-bottom: 40px;
+}
+
+.sections {
+  display: flex;
+}
+
+.cards {
+  padding: 60px 120px;
+  background: linear-gradient(rgba(28, 27, 27, 0.2));
+  background-image: url(https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg?uid=R196522681&ga=GA1.1.1981305665.1744804722&semt=ais_hybrid&w=740);
+}
+
+
+.container {
+  padding: 40px 100px;
+}
+
+.tagline {
+  color: #325cf3;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 68px;
+  font-weight: 490;
+  margin-bottom: 40px;
+}
+
+.title .dot {
+  color: #ccc;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cc {
+  background-color: black;
+  color: white;
+  border: 1px solid #ede8e8;
+  border-radius: 20px;
+  padding: 30px 25px;
+  flex: 1 1 20%;
+  min-width: 300px;
+  max-width: 330px;
+  height: 380px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cc:hover {
+  background-color: #3975ef;
+}
+
+.card-text {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.careers {
+  background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://img.freepik.com/free-photo/three-couples-walking-after-school_329181-8459.jpg?uid=R196522681&ga=GA1.1.1981305665.1744804722&semt=ais_hybrid&w=740);
+}
+
+.subscribe{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 20vh;
+  width: 100vw;
+  background-color: #242424;
+  color: white;
+  padding: 40px;
 }

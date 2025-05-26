@@ -3,9 +3,12 @@
   padding: 0%;
   box-sizing: border-box;
 }
+body{
+  font-family: l;
+}
 
 .main {
-  background-color: black;
+  background-color: white;
 }
 
 nav {
@@ -19,32 +22,29 @@ nav {
   position: fixed;
 
 }
+/* .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 64px; 
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 
-
-
-
-/* .ani
- @keyframes bg-color {
-    from{
-        background-image: url(./0_Classroom_School_3840x2160.mp4) ;
-        height: 100vh;
-        width: 100vw;
-    }
-    to{
-        background-image: url(./456583_Bangkok_Thailand_3840x2160.mp4);
-          height: 100vh;
-        width: 100vw;
-    }
- } */
-
-
-
-
-
-/* nav{
-    background-image: <img src=" https://www.yash.com/wp-content/themes/html5blank-stable/images/home/yash_swoosh_white_outline.svg" alt="">;
 } */
+.overlay-text h1{
+  width: 60vw;
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  font-size: 90px;
+  align-items: center;
+  color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  
 
+}
 nav img {
   width: 12%;
   height: 9vh;
@@ -53,13 +53,29 @@ nav img {
 }
 
 .hero-section-one {
-  /* background-image: url("./0_Classroom_School_3840x2160.mp4"); */
   width: 100vw;
   height: 100vh;
 }
+.video {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.video1 {
+  opacity: 1;
+  z-index: 1;
+}
+
+.video2 {
+  z-index: 2;
+}
 
 .page2 {
-  /* background-color: black; */
+  background-color: black;
   display: flex;
   height: 60vh;
   padding: 50px 150px;
@@ -263,6 +279,7 @@ nav img {
   padding: 10px;
   border-bottom: 2px solid rgb(38, 127, 242);
   width: 390px;
+    transition: 0.3s ease-in-out;
 }
 
 .border-style button {
@@ -286,6 +303,7 @@ nav img {
 }
 
 .border-style:hover {
+    transition: 0.3s ease-in-out;
   width: 40%;
 }
 
@@ -459,6 +477,7 @@ nav img {
 }
 
 
+
 .container {
   padding: 40px 100px;
 }
@@ -504,13 +523,23 @@ nav img {
 
 .cc:hover {
   background-color: #3975ef;
+  transition: 1s ease-in-out;
 }
 
 .card-text {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.4;
+  
 }
+.card-texts {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 52px;
+  
+}
+
 
 .careers {
   background-repeat: no-repeat;
@@ -524,9 +553,13 @@ nav img {
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 20vh;
+  height: 16vh;
   width: 100vw;
   background-color: #242424;
   color: white;
-  padding: 40px;
+  padding: 120px;
+}
+.subscribe h1{
+  width: 80%;
+  font-weight: 490px;
 }
